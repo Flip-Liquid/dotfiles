@@ -2,7 +2,7 @@
 #Send annoying .output logs to /dev/null
 function sblm
 {
-    nohup sublime-text $1 >/dev/null 2>&1 &
+    nohup /opt/sublime/sublime-text $1 >/dev/null 2>&1 &
 } 
 
 #Call my sublime function
