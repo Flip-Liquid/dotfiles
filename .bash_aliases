@@ -1,9 +1,14 @@
 #function to deal with the annoying sublime errors
 #Send annoying .output logs to /dev/null
-function sblm
+function sublime
 {
-    nohup /opt/sublime/sublime-text $1 >/dev/null 2>&1 &
+    nohup /opt/sublime_text/sublime_text $1 >/dev/null 2>&1 &
 } 
+function chrm
+{
+	nohup google-chrome --disable-gpu $1 >/dev/null 2>&1 &
+}
 
 #Call my sublime function
-alias sublime="sblm"
+alias sublime='sblm'
+alias chrm='chrome'
