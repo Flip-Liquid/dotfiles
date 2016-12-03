@@ -113,6 +113,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# TODO: Add ssh information to prompt 
 PS1='\[\e[4;33m\]\u\[\e[m\]\[\e[0;31m\]@\[\e[m\]\[\e[0;33m\]\W\[\e[m\]\[\e[0;31m\]\$\[\e[m\] \[\e[0;37m\]'
 
 export EDITOR=vim
