@@ -22,5 +22,5 @@ if [ -d /mnt/c/Windows/System32 ]; then
 	#TODO: add windows path to bash
 	#alias wincmd=/mnt/c/Windows/System32/cmd.exe
 	#WINUSR=
-	cp env.cmd /mnt/c/Users/joknudso/
+	cp env.cmd /mnt/c/Users/
 fi
