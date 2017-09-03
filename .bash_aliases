@@ -16,8 +16,9 @@ function chrm
 function get_fp_win () {
     local path_str="$1"
     local bash_path=$( echo "$path_str" | sed 's.\\./.g' )
+    local drive_letter=$( echo "$path_str" | cut -c 1 | awk '{print tolower($0)}' )
     bash_path=$( echo "$bash_path" | cut -c3- )
-    bash_path="/mnt/c$bash_path"
+    bash_path="/mnt/$drive_letter/$bash_path"
     echo "$bash_path"
 }
 
