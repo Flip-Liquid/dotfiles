@@ -27,6 +27,7 @@ Plugin 'VundleVim/Vundle.vim'
 " Plugin 'user/L9', {'name': 'newL9'}
 
 Plugin 'solarnz/thrift.vim'
+Plugin 'iamcco/markdown-preview.nvim' 
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

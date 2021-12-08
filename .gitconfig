@@ -1,3 +1,5 @@
 [user]
 	email = jknudson@umich.edu
 	name = John Knudson
+[credential]
+	helper = store
