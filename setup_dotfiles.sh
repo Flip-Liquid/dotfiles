@@ -16,11 +16,3 @@ if [ ! -d $VUNDLELOCATION ]; then
 	mkdir -p $VUNDLELOCATION
 	git clone $VUNDLEREPO $VUNDLELOCATION
 fi
-
-#Check if we're on bash for windows
-if [ -d /mnt/c/Windows/System32 ]; then
-	#TODO: add windows path to bash
-	#alias wincmd=/mnt/c/Windows/System32/cmd.exe
-	#WINUSR=
- 	cp ./env.cmd /mnt/c/Users 
-fi
